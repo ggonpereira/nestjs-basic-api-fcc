@@ -1,73 +1,70 @@
+<h4 align="center">
+ <h1 align="center">NestJS Basic API FCC 🤗</h1>
+</h4>
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ggonpereira/nestjs-basic-api-fcc" />
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ggonpereira/nestjs-basic-api-fcc" />
+  <img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/ggonpereira/nestjs-basic-api-fcc" />
+  <img alt="Github Star" src="https://img.shields.io/github/stars/ggonpereira/nestjs-basic-api-fcc?style=social" />
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+---
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<h2>About 📝</h2>
 
-## Description
+<p align="center">A project created using NestJS, TypeScript, Docker and Prisma, following the lessons from FreeCodeCamp! 👊🏼</p>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+---
 
-## Installation
+<h2>Technologies 🚀</h2>
 
-```bash
-$ npm install
+- [TypeScript](https://www.typescriptlang.org/)
+- [NestJS](https://nestjs.com/)
+- [Prisma](https://www.prisma.io/)
+- [Docker](https://www.docker.com/)
+
+---
+
+<h2>Installation 👨‍💻</h2>
+
+### Before you can start, you have to install these tools on your machine
+
+- <b>[Git](https://git-scm.com)</b>
+- <b>[NodeJS](https://nodejs.org/)</b>
+
+### Then
+
+```txt
+- Clone the repository:
+$ git clone https://github.com/ggonpereira/nestjs-basic-api-fcc.git
+
+- Then access the directory:
+$ cd nestjs-basic-api-fcc
+
+- Now type
+
+$ yarn install
+
+- Copy and rename the '.env.example' to '.env' and replace the variable placeholders
+with your correct data. You should start a Postgres database and point to the
+correct URL, example: postgresql://postgres:123@localhost:5434/nest?schema=public
+This credentials are configured on the docker-compose.yml file
+
+- Then run
+
+$ yarn prisma:dev:deploy
+$ yarn db:dev:up
+
+- And finally:
+
+$ yarn start
+
+(if you don't have Yarn installed, please install here "https://yarnpkg.com/")
+
+- And finally, access: http://127.0.0.1:5173 (if the yarn hasn't accessed to you)
 ```
 
-## Running the app
+---
 
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+> This project was developed with the ❤️ by **[@Gabriel G. Pereira](https://www.linkedin.com/in/gabriel-gonçalves-pereira/) following the lessons from [Free Code Camp](https://www.youtube.com/watch?v=GHTA143_b-s)**
+> If it was helpful for you or I could inspire you to create your own project, give me a ⭐! 😉
